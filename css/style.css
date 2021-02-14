@@ -238,9 +238,16 @@ footer ul li p {
 
   @media only screen and (max-width: 950px) {
     .columns img {
-        max-width: 90%;
-        height: auto;
-        margin-left: 5%;
+        display: none;
     }
+
+    .columns div{
+        width: 80%;
+    }
+
+    .image-column {
+        display: none;
+    }
+    
 }
   
